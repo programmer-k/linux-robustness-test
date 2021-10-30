@@ -25,7 +25,7 @@ echo "If the program does end or invokes kernel panic, please fix it."
 
 for filename in ${testcases[@]}; do
     echo "Running ${filename}.."
-    timeout --signal=KILL --kill-after=15m ./${filename}
+    timeout --signal=KILL 15m ./${filename}
 done
 
 echo "All programs finished!"
