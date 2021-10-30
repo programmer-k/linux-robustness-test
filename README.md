@@ -10,6 +10,12 @@ Please use the following command to run it.
 
 ```
 curl -s https://raw.githubusercontent.com/programmer-k/linux-robustness-test/main/run_end.sh | bash | tee run_end_output.txt
+
+# If you want to modify the array declared in the script,
+# Please use the following commands.
+curl -s https://raw.githubusercontent.com/programmer-k/linux-robustness-test/main/run_end.sh -o run_end.sh
+nano run_end.sh     # Use the text editor whatever you want.
+bash run_end.sh | tee run_end_output.txt
 ```
 
 # run_no_end.sh
@@ -20,6 +26,12 @@ Please use the following command to run it.
 
 ```
 curl -s https://raw.githubusercontent.com/programmer-k/linux-robustness-test/main/run_no_end.sh | bash | tee run_no_end_output.txt
+
+# If you want to modify the array declared in the script,
+# Please use the following commands.
+curl -s https://raw.githubusercontent.com/programmer-k/linux-robustness-test/main/run_no_end.sh -o run_no_end.sh
+nano run_no_end.sh     # Use the text editor whatever you want.
+bash run_no_end.sh | tee run_no_end_output.txt
 ```
 
 # Testcases that result in kernel panic
