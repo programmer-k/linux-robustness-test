@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 
-testcases=("example.exe" "jhh1.exe" "js2.exe" "nssh1.exe" "swtest12.exe" "test1.exe" "test1_0601p.exe" "test2.exe" "testcase2.exe" "testcase8.exe")
+testcases=("example.exe" "jhh1.exe" "js2.exe" "nssh1.exe" "swtest12.exe" "test1.exe" "test1_0601p.exe" "testcase2.exe" "testcase8.exe")
 
 echo "This script will run all the testcases that should not end but also should not result in kernel panic."
 echo "If not, please check the result and report/fix the kernel."
