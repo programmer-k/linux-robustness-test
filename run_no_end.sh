@@ -20,7 +20,7 @@ done
 echo "All files exist!"
 echo ""
 
-echo "Now, the script will run each executables with timeout of 15 minutes."
+echo "Now, the script will run each executable with timeout of 15 minutes."
 echo "If the program does end or invokes kernel panic, please fix it."
 
 for filename in ${testcases[@]}; do
