@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 
-testcases=("inode.exe" "jiun4.exe" "jjhTest1.exe" "test4.exe" "test5.exe" "testac056.exe" "testcase1.exe" "testcase3.exe" "testcase5.exe" "testcase6.exe")
+testcases=("inode.exe" "jiun4.exe" "jjhTest1.exe" "test3.exe" "test4.exe" "test5.exe" "test.exe" "testac056.exe" "testcase1.exe" "testcase3.exe" "testcase5.exe" "testcase6.exe")
 
 echo "This script will run all the testcases that should be end in a short period of time."
 echo "If not, please check the result and report/fix the kernel."
